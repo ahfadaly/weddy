@@ -54,3 +54,9 @@
     display: none;
   }
 }
+
+@media (min-width: 992px) {
+  .owl-theme .owl-dots {
+    display: none;
+  }
+}

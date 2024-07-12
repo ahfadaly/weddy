@@ -27,7 +27,7 @@ $(`document`).ready(() => {
     rtl: true,
     autoplay: true,
     autoplayTimeout: 2000,
-    dots: false,
+    dots: true,
     nav: true,
     navText: [
       '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
@@ -53,7 +53,7 @@ $(`document`).ready(() => {
     rtl: true,
     autoplay: true,
     autoplayTimeout: 2000,
-    dots: false,
+    dots: true,
     nav: true,
     navText: [
       '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
