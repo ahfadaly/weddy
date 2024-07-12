@@ -338,8 +338,8 @@ textarea:focus {
 }
 /* end footer -------- */
 
-/* sgin-up page ============== */
-.sgin-up::before {
+/* register page ============== */
+.register::before {
   content: "";
   position: absolute;
   background-image: url(../images/ellipse.png);
@@ -350,31 +350,34 @@ textarea:focus {
   background-repeat: no-repeat;
   width: 300px;
 }
-.sgin-up .title p {
+.register .title p {
   font-size: 30.9px;
   font-weight: 600;
   line-height: 86.01px;
   color: #393838;
 }
-.sgin-up form label {
+.register form label {
   font-size: 25px;
   font-weight: 600;
   line-height: 50px;
   color: #101828;
 }
-.sgin-up form input {
+.register form input {
   background-color: #f1f1f1;
   border: 0;
 }
 input:focus {
   background-color: #f1f1f1 !important;
 }
-.sgin-up form button {
+.register form button {
   background-color: var(--main-color);
 }
 
 @media (max-width: 991px) {
-  .sgin-up .title p {
+  .register .title p {
     font-size: 22px;
+  }
+  .register::before {
+    width: 100%;
   }
 }
