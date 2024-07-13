@@ -376,8 +376,9 @@ input:focus {
 @media (max-width: 991px) {
   .register .title p {
     font-size: 22px;
+    line-height: 30px;
   }
-  .register::before {
-    width: 100%;
+  .register form label {
+    font-size: 20px;
   }
 }
